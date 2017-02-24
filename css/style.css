@@ -1,0 +1,300 @@
+/* A BIT OF TYPOGRAPHY */
+
+body 
+{
+	font-family: 'Alegreya Sans', sans-serif;
+	font-weight: 300;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: #03003F;
+}
+
+h1, h2, h3 
+{
+	font-weight: 300;
+	color: #03003F;
+}
+
+b
+{
+	font-weight: 700;
+}
+
+p 
+{
+	margin: 2rem 0 2rem 0;
+}
+
+
+
+/* CENTRED CONTENT */
+
+.content 
+{
+	margin: 2em auto;
+	max-width: 40em;
+	padding: 0 1em;
+}
+
+/* NAVIGATION */
+
+.topbar
+{
+	height: 15rem;
+	/* 250px */
+}
+
+nav ul
+{
+	list-style: none;
+}
+
+nav li
+{
+	display: inline-block;
+}
+
+nav li a
+{
+	text-decoration: none;
+	color: #03003F;
+}
+
+/* LOGO */
+
+.logo 
+{
+	width: 26.25rem;
+	height: 10rem;
+	
+	/* the negative margin trick */
+	position: absolute;
+/*	top: 50%;
+	left: 50%;
+	margin-left: -160px;
+	margin-top: -160px;*/
+}
+
+.logo img 
+{
+	width: 100%;
+}
+
+.logo h3
+{
+	margin-top: -1rem;
+}
+
+/* FULL-SIZE IMAGES */
+
+html, body 
+{
+	height: 100%;
+}
+
+.full 
+{
+	height: 100%;
+	background-color: #fffbf2;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.half 
+{
+	height: 50%;
+	background-color: #fffbf2;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+
+
+/* BACKGROUND IMAGES */
+#imageOne 
+{
+	background-image: url(../images/warmth2painting_largeAbstractArtwork.jpg);
+}
+
+#imageTwo 
+{
+	background-image: url(../images/warmth4painting_largeAbstractArtwork.jpg);
+}
+
+#imageThree 
+{
+	background-image: url(../images/warmth5painting_largeAbstractArtwork.jpg);
+}
+
+#imageFour 
+{
+	background-image: url(../images/warmth1painting_largeAbstractArtwork.jpg);
+}
+
+#imageFive 
+{
+	background-image: url(../images/dotsOrangeBlue_painting_abstractArtwork.jpg);
+}
+
+#imageSix 
+{
+	background-image: url(../images/AimeeJohanan_aquamarine_painting_abstractArtwork.jpg);
+}
+
+#imageSeven 
+{
+	background-image: url(../images/redWhitePurpleMask_painting_abstractArtwork.jpg);
+}
+
+/* BUBBLES*/
+
+.bubble,
+.bubble2
+{
+	height: 28rem;
+	width: 28rem;
+	/* 448px */
+	background-repeat: no-repeat;
+	background-size: 28rem;
+	background-position-x: 50%;
+}
+
+.largeh2
+{
+	font-weight: 100;
+	font-size: 2.5rem;
+}
+
+.bubble2 h2
+{
+	color: #03003F;
+}
+
+
+#imageOne section
+{
+	background-image: url(../images/Green-elipse.png);
+}
+
+#imageTwo section,
+#imageFive section,
+#imageSix section,
+#imageSeven section
+{
+	background-image: url(../images/White-elipse.png);
+}
+
+#imageThree section
+{
+	background-image: url(../images/Yellow-elipse.png);
+}
+
+#imageFour section
+{
+	background-image: url(../images/Blue-elipse.png);
+}
+
+
+
+
+/* MAILCHIMP FORM */
+
+/*#mc_embed_signup 
+{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 30em;
+	height: 13em;
+	margin: -6.5em 0 0 -15em;
+
+	background: #fffbf2;
+}*/
+
+input 
+{
+	box-sizing: border-box;
+	width: 100%;
+	background-color: transparent;
+    border-top-width: 0;
+    border-right-width: 0;
+    border-left-width: 0;
+    border-bottom-width: 1px;
+    border-style: dotted;
+    border-color: #03003F;
+    padding: .75em;
+}
+
+input:focus
+{
+	outline: none;
+	border-bottom-width: 2px;
+
+}
+
+input[type="email"] 
+{
+	
+}
+
+input[type="submit"]
+{
+	margin: 3rem auto;
+	background-color: #45b79d;
+	color: #fffbf2;
+	border-radius: .25em;
+	border: none;
+	padding: .5em;
+	/*font-size: 1.5em;*/
+	font-size: 1.5rem;
+	font-weight: 200;
+	width: 50%;
+	display: block;
+}
+
+label
+{
+	float: left;
+}
+
+.h-centred
+{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.v-centred
+{
+    display: flex;
+    align-items: center;
+}
+
+.floatingBeliefs
+{
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.content .largeh2
+{
+	margin: 6rem 0;
+}
+
+.orangeWords
+{
+	color: #ff4b00;
+}
+
+#contact
+{
+	background-color: #03003F;
+	margin: 0 auto;
+	padding: 2rem 0;
+}
+
+#contact h2
+{
+	color: white;
+	text-align: center;
+}
