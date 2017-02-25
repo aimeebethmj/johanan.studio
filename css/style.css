@@ -13,7 +13,8 @@ body
 	font-size: 1rem;
 	line-height: 1.5;
 	color: #03003F;
-	overflow-x: hidden
+	overflow-x: hidden;
+	width: auto;
 }
 
 h1, h2, h3 
