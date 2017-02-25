@@ -11,7 +11,7 @@ body
 
 h1, h2, h3 
 {
-	font-weight: 300;
+	font-weight: 200;
 	color: #03003F;
 }
 
@@ -299,6 +299,10 @@ label
 	color: #ff4b00;
 }
 
+.paleBlueWords {
+    color: #c4cff1;
+}
+
 #contact
 {
 	background-color: #03003F;
@@ -317,4 +321,45 @@ label
 
 @-ms-viewport{
   width: device-width;
+}
+
+@media only screen and (max-width: 550px) {
+    
+    .largeh2 
+    {
+    font-weight: 100;
+    font-size: 2rem;
+	}
+
+	.content .largeh2 
+	{
+    margin: 1.5rem auto;
+	}
+
+	.half 
+	{
+    height: 70%;
+	}
+
+	.content
+	{
+	margin: 2rem 1rem;
+	}
+
+	.bubble, .bubble2 
+	{
+    height: 17rem;
+    width: 17rem;
+    background-size: 17rem;
+	}
+
+	input[type="submit"] 
+	{
+    width: 80%;
+	}
+
+	#contact .largeh2
+	{
+		font-size: 1.5rem;
+	}
 }
