@@ -82,7 +82,7 @@ nav li a
 
 .logo h3
 {
-	margin-top: -1rem;
+	margin-top: -.5rem;
 }
 
 /* FULL-SIZE IMAGES */
@@ -92,7 +92,7 @@ html, body
 	height: 100%;
 }
 
-.full 
+.full, .half 
 {
 	height: 100%;
 	background-color: #fffbf2;
@@ -103,11 +103,7 @@ html, body
 
 .half 
 {
-	height: 50%;
-	background-color: #fffbf2;
-	background-size: cover;
-	background-attachment: fixed;
-	position: relative;
+	height: 70%;
 }
 
 
@@ -249,7 +245,7 @@ input[type="submit"]
 	/*font-size: 1.5em;*/
 	font-size: 1.5rem;
 	font-weight: 200;
-	width: 50%;
+	width: 80%;
 	display: block;
 }
 
@@ -324,6 +320,11 @@ label
 }
 
 @media only screen and (max-width: 550px) {
+
+	.full, .half 
+	{
+		background-attachment: scroll;
+	}
     
     .largeh2 
     {
@@ -361,5 +362,22 @@ label
 	#contact .largeh2
 	{
 		font-size: 1.5rem;
+	}
+	.logo img 
+	{
+    width: 65%;
+	}
+
+	.logo 
+	{
+    height: 8rem;
+	}
+	.topbar 
+	{
+    height: 10rem;
+	}
+	.half 
+	{
+		height: 100%;
 	}
 }
