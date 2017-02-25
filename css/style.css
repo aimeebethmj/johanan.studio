@@ -227,7 +227,7 @@ input
     border-bottom-width: 1px;
     border-style: dotted;
     border-color: #03003F;
-    padding: .75em;
+    padding: .75em 0;
 }
 
 input:focus
