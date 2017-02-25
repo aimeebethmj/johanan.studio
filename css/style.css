@@ -5,6 +5,11 @@ html, body
 	width: 100%;
 }
 
+div, section 
+	{
+  box-sizing: border-box;
+  }
+
 body 
 {
 	font-family: 'Alegreya Sans', sans-serif;
