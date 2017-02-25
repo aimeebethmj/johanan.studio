@@ -298,3 +298,10 @@ label
 	color: white;
 	text-align: center;
 }
+
+
+/*   RESPONSIVE   */
+
+@-ms-viewport{
+  width: device-width;
+}
