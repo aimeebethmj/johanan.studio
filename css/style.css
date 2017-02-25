@@ -258,6 +258,13 @@ label
 	float: left;
 }
 
+#mc_embed_signup div.mce_inline_error
+{
+	background-color: #c51400;
+	border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
 .h-centred
 {
     display: flex;
