@@ -87,7 +87,8 @@ nav li a
 
 .logo img 
 {
-	width: 100%;
+	width: 26.25rem;
+
 }
 
 .logo h3
@@ -375,7 +376,7 @@ label
 	}
 	.logo img 
 	{
-    width: 65%;
+    width: 17rem;
 	}
 
 	.logo 
