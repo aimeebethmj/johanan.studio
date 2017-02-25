@@ -1,5 +1,10 @@
 /* A BIT OF TYPOGRAPHY */
 
+html, body
+{
+	width: 100%;
+}
+
 body 
 {
 	font-family: 'Alegreya Sans', sans-serif;
