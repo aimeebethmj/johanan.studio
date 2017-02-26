@@ -236,66 +236,7 @@ html, body
 	}
 }
 
-/* MAILCHIMP FORM */
-
-input
-{
-	box-sizing: border-box;
-	width: 100%;
-	background-color: transparent;
-	border-radius: 0;
-	border-width: 0;
-	border-bottom-width: 1px;
-	border-style: dotted;
-	border-color: #03003F;
-	padding: .75em 0;
-}
-
-input:focus
-{
-	outline: none;
-	border-bottom-width: 2px;
-}
-
-input[type="submit"]
-{
-	margin: 3rem auto;
-	background-color: #45b79d;
-	color: #fffbf2;
-	border-radius: .25em;
-	border: none;
-	padding: .5em;
-	font-size: 1.5rem;
-	font-weight: 200;
-	width: 80%;
-	display: block;
-}
-
-input:-webkit-autofill
-{
-	background-color: transparent;
-	background-image: none;
-	color: #fffbf2;
-}
-
-label
-{
-	float: left;
-}
-
-#mc_embed_signup div.mce_inline_error
-{
-	background-color: #c51400;
-	border-bottom-right-radius: 5px;
-	border-bottom-left-radius: 5px;
-}
-
-div#mce-success-response.response
-{
-	font-size: 1.5rem;
-    margin-top: 2rem;
-    color: #ef8522;
-}
+/* FLEXBOX */
 
 .h-centred, .v-centred
 {
