@@ -67,11 +67,12 @@ nav li a
 
 .logo
 {
-	width: 26.25rem;
+	width: 25rem;
 	height: 10rem;
 }
 
-.logo object
+.logo object,
+.logo img
 {
 	width: 100%;
 }
@@ -355,24 +356,26 @@ html, body
 	{
 		font-size: 1.5rem;
 	}
-	.logo object
+
+	.logo object,
+	.logo img
 	{
     width: 17rem;
     margin-top: -1rem;
 	}
 
-	.logo h3 
+	.logo h3
 	{
-    margin-top: -2.5rem;
+    /*margin-top: -2.5rem;*/
 	}
 
 	.logo
 	{
-    height: 8rem;
+    height: 6rem;
 	}
 	.topbar
 	{
-    height: 10rem;
+    height: 12rem;
 	}
 	.half
 	{
