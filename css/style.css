@@ -190,7 +190,8 @@ html, body
 
 /* ARROW */
 
-#arrow-down
+#arrow-down, 
+#arrow-down2
 {
 	position: fixed;
 	bottom: 0%;
@@ -211,6 +212,12 @@ html, body
 {
 	opacity: 1;
 }
+
+#arrow-down2
+{
+	bottom: 10%;
+}
+
 
 @-webkit-keyframes arrow-down {
 	0%,40% {
