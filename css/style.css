@@ -240,7 +240,7 @@ label
 
 #mc_embed_signup div.mce_inline_error
 {
-	background-color: #c51400;
+	background-color: #c51400; !important
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
@@ -325,7 +325,7 @@ label
 
 	.half
 	{
-    height: 70%;
+    height: 100%;
 	}
 
 	.content
