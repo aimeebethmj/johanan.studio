@@ -71,9 +71,9 @@ nav li a
 	height: 10rem;
 }
 
-.logo img
+.logo object
 {
-	width: 26.25rem;
+	width: 100%;
 }
 
 .logo h3
