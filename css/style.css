@@ -1,12 +1,11 @@
 /* A BIT OF TYPOGRAPHY */
 
-
-div, section 
-	{
+div, section
+{
   box-sizing: border-box;
-  }
+}
 
-body 
+body
 {
 	font-family: 'Alegreya Sans', sans-serif;
 	font-weight: 300;
@@ -17,7 +16,7 @@ body
 	width: 100%;
 }
 
-h1, h2, h3 
+h1, h2, h3
 {
 	font-weight: 200;
 	color: #03003F;
@@ -28,16 +27,14 @@ b
 	font-weight: 700;
 }
 
-p 
+p
 {
 	margin: 2rem 0 2rem 0;
 }
 
-
-
 /* CENTRED CONTENT */
 
-.content 
+.content
 {
 	margin: 2em auto;
 	max-width: 40em;
@@ -70,23 +67,15 @@ nav li a
 
 /* LOGO */
 
-.logo 
+.logo
 {
 	width: 26.25rem;
 	height: 10rem;
-	
-	/* the negative margin trick */
-	position: absolute;
-/*	top: 50%;
-	left: 50%;
-	margin-left: -160px;
-	margin-top: -160px;*/
 }
 
-.logo img 
+.logo img
 {
 	width: 26.25rem;
-
 }
 
 .logo h3
@@ -96,12 +85,12 @@ nav li a
 
 /* FULL-SIZE IMAGES */
 
-html, body 
+html, body
 {
 	height: 100%;
 }
 
-.full, .half 
+.full, .half
 {
 	height: 100%;
 	background-color: #fffbf2;
@@ -111,44 +100,44 @@ html, body
 	box-sizing: border-box;
 }
 
-.half 
+.half
 {
 	height: 70%;
 }
 
 
 /* BACKGROUND IMAGES */
-#imageOne 
+#imageOne
 {
 	background-image: url(../images/warmth2painting_largeAbstractArtwork.jpg);
 }
 
-#imageTwo 
+#imageTwo
 {
 	background-image: url(../images/warmth4painting_largeAbstractArtwork.jpg);
 }
 
-#imageThree 
+#imageThree
 {
 	background-image: url(../images/warmth5painting_largeAbstractArtwork.jpg);
 }
 
-#imageFour 
+#imageFour
 {
 	background-image: url(../images/warmth1painting_largeAbstractArtwork.jpg);
 }
 
-#imageFive 
+#imageFive
 {
 	background-image: url(../images/dotsOrangeBlue_painting_abstractArtwork.jpg);
 }
 
-#imageSix 
+#imageSix
 {
 	background-image: url(../images/AimeeJohanan_aquamarine_painting_abstractArtwork.jpg);
 }
 
-#imageSeven 
+#imageSeven
 {
 	background-image: url(../images/redWhitePurpleMask_painting_abstractArtwork.jpg);
 }
@@ -202,23 +191,9 @@ html, body
 }
 
 
-
-
 /* MAILCHIMP FORM */
 
-/*#mc_embed_signup 
-{
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 30em;
-	height: 13em;
-	margin: -6.5em 0 0 -15em;
-
-	background: #fffbf2;
-}*/
-
-input 
+input
 {
 	box-sizing: border-box;
 	width: 100%;
@@ -239,9 +214,9 @@ input:focus
 
 }
 
-input[type="email"] 
+input[type="email"]
 {
-	
+
 }
 
 input[type="submit"]
@@ -274,19 +249,26 @@ label
 {
 	background-color: #c51400;
 	border-bottom-right-radius: 5px;
-    border-bottom-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+.h-centred, .v-centred
+{
+	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
+	display: -moz-box;         /* OLD - Firefox 19- (buggy but mostly works) */
+	display: -ms-flexbox;      /* TWEENER - IE 10 */
+	display: -webkit-flex;     /* NEW - Chrome */
+	display: flex;             /* NEW, Spec - Opera 12.1, Firefox 20+ */
 }
 
 .h-centred
 {
-    display: flex;
-    justify-content: center;
-    text-align: center;
+	justify-content: center;
+	text-align: center;
 }
 .v-centred
 {
-    display: flex;
-    align-items: center;
+	align-items: center;
 }
 
 .floatingBeliefs
@@ -305,8 +287,9 @@ label
 	color: #ff4b00;
 }
 
-.paleBlueWords {
-    color: #c4cff1;
+.paleBlueWords
+{
+  color: #c4cff1;
 }
 
 #contact
@@ -331,23 +314,23 @@ label
 
 @media only screen and (max-width: 550px) {
 
-	.full, .half 
+	.full, .half
 	{
 		background-attachment: scroll;
 	}
-    
-    .largeh2 
-    {
+
+  .largeh2
+  {
     font-weight: 100;
     font-size: 2rem;
 	}
 
-	.content .largeh2 
+	.content .largeh2
 	{
     padding: 1.5rem auto;
 	}
 
-	.half 
+	.half
 	{
     height: 70%;
 	}
@@ -357,14 +340,14 @@ label
 	margin: 2rem 1rem;
 	}
 
-	.bubble, .bubble2 
+	.bubble, .bubble2
 	{
     height: 17rem;
     width: 17rem;
     background-size: 17rem;
 	}
 
-	input[type="submit"] 
+	input[type="submit"]
 	{
     width: 80%;
 	}
@@ -373,20 +356,20 @@ label
 	{
 		font-size: 1.5rem;
 	}
-	.logo img 
+	.logo img
 	{
     width: 17rem;
 	}
 
-	.logo 
+	.logo
 	{
     height: 8rem;
 	}
-	.topbar 
+	.topbar
 	{
     height: 10rem;
 	}
-	.half 
+	.half
 	{
 		height: 100%;
 	}
