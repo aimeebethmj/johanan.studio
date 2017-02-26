@@ -16,7 +16,7 @@ body
 
 h1, h2, h3
 {
-	font-weight: 200;
+	font-weight: 100;
 	color: #03003F;
 }
 
@@ -326,6 +326,11 @@ iframe
 		background-attachment: scroll;
 	}
 
+	h1, h2, h3
+	{
+		font-weight: 300;
+	}
+	
 	.largeh2
 	{
 		font-weight: 100;
