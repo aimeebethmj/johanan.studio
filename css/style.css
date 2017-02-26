@@ -292,6 +292,19 @@ html, body
 	text-align: center;
 }
 
+/* EMAIL FORM */
+
+.email-form
+{
+	min-height: 40rem;
+}
+
+iframe
+{
+	width: 100%;
+	max-width: 100%;
+}
+
 
 /*   RESPONSIVE   */
 
@@ -299,50 +312,61 @@ html, body
   width: device-width;
 }
 
-@media only screen and (max-width: 550px) {
-
+@media only screen and (max-width: 550px)
+{
 	.full, .half
 	{
 		background-attachment: scroll;
 	}
 
-  .largeh2
-  {
-    font-weight: 100;
-    font-size: 2rem;
+	.largeh2
+	{
+		font-weight: 100;
+		font-size: 2rem;
+		font-size: 1.5rem;
 	}
 
 	.content .largeh2
 	{
-    padding: 1.5rem auto;
+		/*padding: 1.5rem;*/
 	}
 
 	.half
 	{
-    height: 70%;
+		height: 70%;
 	}
 
 	.content
 	{
-	margin: 2rem 1rem;
+		/*margin: 2rem 1rem;*/
+	}
+
+	.email-form h2
+	{
+		font-size: 1rem;
 	}
 
 	.content h2
 	{
-	margin: 0 1rem;
+		/*margin: 0 1rem;*/
+		font-size: 18px;
 	}
 
+	.content .largeh2
+	{
+		margin: 4rem 0;
+	}
 
 	.bubble, .bubble2
 	{
-    height: 17rem;
-    width: 17rem;
-    background-size: 17rem;
+		height: 17rem;
+		width: 17rem;
+		background-size: 17rem;
 	}
 
 	input[type="submit"]
 	{
-    width: 80%;
+		width: 80%;
 	}
 
 	#contact .largeh2
@@ -353,22 +377,22 @@ html, body
 	.logo object,
 	.logo img
 	{
-    width: 17rem;
-    margin-top: -1rem;
+		width: 17rem;
+		margin-top: -1rem;
 	}
 
 	.logo h3
 	{
-    /*margin-top: -2.5rem;*/
+		/*margin-top: -2.5rem;*/
 	}
 
 	.logo
 	{
-    height: 6rem;
+		height: 6rem;
 	}
 	.topbar
 	{
-    height: 12rem;
+		height: 12rem;
 	}
 	.half
 	{
