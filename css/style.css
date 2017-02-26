@@ -1,5 +1,3 @@
-/* A BIT OF TYPOGRAPHY */
-
 div, section
 {
 	box-sizing: border-box;
@@ -190,6 +188,53 @@ html, body
 	background-image: url(../images/Blue-elipse.png);
 }
 
+/* ARROW */
+
+#arrow-down
+{
+	position: fixed;
+	bottom: 0%;
+	width: 100%;
+	left: 0;
+	-webkit-transition: opacity 1s;
+	transition: opacity 1s;
+	-webkit-animation: arrow-down 4s infinite;
+	animation: arrow-down 4s infinite;
+}
+
+#arrow-down.hidden
+{
+	opacity: 0;
+}
+
+#arrow-down.shown
+{
+	opacity: 1;
+}
+
+@-webkit-keyframes arrow-down {
+	0%,40% {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	20% {
+		-webkit-transform: translate3d(0,-10px,0);
+		transform: translate3d(0,-10px,0);
+	}
+}
+
+@keyframes arrow-down {
+	0%,40% {
+		-webkit-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	20% {
+		-webkit-transform: translate3d(0,-10px,0);
+		transform: translate3d(0,-10px,0);
+	}
+}
 
 /* MAILCHIMP FORM */
 
@@ -240,7 +285,7 @@ label
 
 #mc_embed_signup div.mce_inline_error
 {
-	background-color: #c51400; !important
+	background-color: #c51400;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
 }
@@ -325,7 +370,7 @@ label
 
 	.half
 	{
-    height: 100%;
+    height: 70%;
 	}
 
 	.content
