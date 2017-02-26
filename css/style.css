@@ -348,9 +348,15 @@ html, body
 	{
 		font-size: 1.5rem;
 	}
-	.logo img
+	.logo object
 	{
     width: 17rem;
+    margin-top: -1rem;
+	}
+
+	.logo h3 
+	{
+    margin-top: -2.5rem;
 	}
 
 	.logo
