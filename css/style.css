@@ -326,6 +326,12 @@ html, body
 	margin: 2rem 1rem;
 	}
 
+	.content h2
+	{
+	margin: 0 1rem;
+	}
+
+
 	.bubble, .bubble2
 	{
     height: 17rem;
