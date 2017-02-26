@@ -290,6 +290,13 @@ label
 	border-bottom-left-radius: 5px;
 }
 
+div#mce-success-response.response
+{
+	font-size: 1.5rem;
+    margin-top: 2rem;
+    color: #ef8522;
+}
+
 .h-centred, .v-centred
 {
 	display: -webkit-box;      /* OLD - iOS 6-, Safari 3.1-6 */
